@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  font-weight: 900;
+  font-size: 64px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  min-width: 450px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+#text {
+  color: white;
+  border: 5px solid white;
+  margin-bottom: 2rem;
+}
+
+#text:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#text:active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#generate {
+  color: #212121;
+  background-color: white;
+}
+
+#generate:hover {
+  opacity: 0.9;
+}
+
+#generate:active {
+  opacity: 0.8;
+}
